@@ -1,0 +1,109 @@
+
+
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>Lane Detection</title>
+		<script type='text/javascript'>
+			function encodeImageFileAsURL() {
+
+			    var filesSelected = document.getElementById("inputFileToLoad").files;
+			    console.log(filesSelected)
+			    if (filesSelected.length > 0) {
+			     	var fileToLoad = filesSelected[0];
+
+			      	var fileReader = new FileReader();
+
+				    fileReader.onload = function(fileLoadedEvent) {
+				    var srcData = fileLoadedEvent.target.result; // <--- data: base64
+			     	console.log(srcData)
+
+			        var newImage = document.createElement('img');
+			        newImage.src = srcData;
+
+			        document.getElementById("imgTest").innerHTML = newImage.outerHTML;
+			        document.getElementById("base64_value").value = srcData;
+			      }
+			      fileReader.readAsDataURL(fileToLoad);
+			    }
+			  }
+
+            function detect() {
+                alert("here...");
+                console.log("here...");
+            }
+		</script>
+		<style>
+			body
+			{
+			 width:100%;
+			 margin:0 auto;
+			 padding:0px;
+			 background: url('static/images/artificial-intelligence-background-6.png') #ccc;
+			}
+			#wrapper
+			{
+			 text-align:center;
+			 margin:0 auto;
+			 padding:0px;
+			 width:995px;
+			 margin-top:5%;
+			}
+			#output_image
+			{
+			 max-width:300px;
+			}
+			.btn_submit{
+			 width: auto;
+			 height:40px;
+			 border-radius: 5px;
+			 background: #382063;
+			 border: none;
+			 color: #fff;
+			 padding: 5px;
+			}
+			.btn_submit:hover{
+			 background: #57427e;
+			}
+			.scope{
+				text-align: left;
+			}
+			#imgTest img{
+				width:640px;
+				width:480px;
+			}
+
+		</style>
+	</head>
+<body>
+	<div id="wrapper">
+		<h1>Lane Detection</h1>
+		<form action="/key_image_search" method="POST" id="myform" >
+			 	Upload an image:
+				<input id="inputFileToLoad" type="file" onchange="encodeImageFileAsURL();" accept="image/x-png,image/jpg,image/jpeg"  /><hr>
+				<div id="imgTest"></div>
+				<br><hr>
+				<input type="hidden" id="base64_value" name="data" height="100px" width="300px"/>
+			 	<input type="submit" value="Detect" class="btn_submit" />
+		</form>
+	</div>
+
+	<p>
+		<h2>Original Image</h2>
+	</p>
+	<hr>
+		<div id="original_image">
+			<img src="data:image/png;base64,{{ org_pic }}" width="500px" height="700px" align="middle"/>
+		</div>
+	<br><hr>
+
+	<p>
+		<h2>Detected Image</h2>
+	</p>
+	<hr>
+		<div id="next">
+			<img src="data:image/png;base64,{{ pred}}"  alt = "new pic" />
+
+		</div>
+	<br><h
+</body>
