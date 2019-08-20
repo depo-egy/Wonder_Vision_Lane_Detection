@@ -34,10 +34,10 @@ Following are the Slack handles of the members
 |Vigneshwari Ramakrishnan|@Vigneshwari|https://github.com/drvigneshwari
 
 
-## This Google document is the for meetups follow up:
+## Meetup updates:
 https://docs.google.com/document/d/1fGN4T_ZJNQP5KHoIm5kUwVwMsGtgJyX9qYuI5ZCVQWc/edit
 
 
-### Here's the Workflow of our project!!!
+## Here's the Workflow of our project!!!
 
 ![BlockDiagramLast](https://user-images.githubusercontent.com/19780364/63348471-0858b080-c379-11e9-844e-f9b14b3b852c.png))
