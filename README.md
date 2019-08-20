@@ -2,7 +2,7 @@
 This repository is dedicated for showing the work of the "Lane Detection" subgroup within #sg_wonder_vision channel on Slack Work-space for Private and Secure AI challenge from Udacity.
 
 # Project overview
-As the name suggests, this project focusses on <b>identification of lanes of the road</b> which we achieved through this project using various approaches and frameworks including but not limited to <b>OpenCV, PyTorch etc</b>.
+As the name suggests, this project focusses on <b>identification of lanes of the road</b> which we achieved through this project using various approaches and frameworks including but not limited to <b>OpenCV, PyTorch etc</b>. This model is to be used in drones , self driving cars, surveillance systems  , so its is primarily related to 'Safety'.
 
 # Approaches followed 
 
@@ -40,24 +40,4 @@ https://docs.google.com/document/d/1fGN4T_ZJNQP5KHoIm5kUwVwMsGtgJyX9qYuI5ZCVQWc/
 
 ### Here's the Workflow of our project!!!
 
-![BlockDiagramLast](https://user-images.githubusercontent.com/19780364/63348471-0858b080-c379-11e9-844e-f9b14b3b852c.png)
-
-### Use case of our Lane Dection Project:
-
-- <b> It can be used in drones</b>
-   We can use lane detection in automatic drones which are used nowadays like medical,traffic control,monitoring and so on.
-- <b> It can be used in air surveillance system.</b>
-   We can use this lane detection in to get a survey of places affected by disasters or in general normal surveillance.
-- <b> We can even measure the traffic crowd in particlular lane. </b>
-
-### Using Pytorch Transfer Learning for car detection:
-We tried using vgg model for detecting the car using transfer learning. Though we could not completely integrate it with our project, we have a kept a small notebook for the things we have tried.
-
-### Yolo object detection in video:
-We also tried the object detection in a video using yolo and the weights are in the drive link above.
-
-### Our Future Enhancement(Our Ultimate Goal):
-- Detecting urban and rural roads.
-- Use car detection in roads for a particular lane and count frequency (real time video)
-- Use this detection with other projects in #sg_wonder_vision channel to create a mass useful project.
-
+![BlockDiagramLast](https://user-images.githubusercontent.com/19780364/63348471-0858b080-c379-11e9-844e-f9b14b3b852c.png))
