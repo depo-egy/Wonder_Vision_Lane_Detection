@@ -1,9 +1,10 @@
 
-
 <! DOCTYPE html>
 <html>
 	<head>
 		<title>Lane Detection</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 		<script type='text/javascript'>
 			function encodeImageFileAsURL() {
 
@@ -39,7 +40,7 @@
 			 width:100%;
 			 margin:0 auto;
 			 padding:0px;
-			 background: url('static/images/artificial-intelligence-background-6.png') #ccc;
+			/* background: url('static/images/artificial-intelligence-background-6.png') #ccc;*/
 			}
 			#wrapper
 			{
@@ -76,34 +77,57 @@
 		</style>
 	</head>
 <body>
-	<div id="wrapper">
-		<h1>Lane Detection</h1>
-		<form action="/key_image_search" method="POST" id="myform" >
-			 	Upload an image:
-				<input id="inputFileToLoad" type="file" onchange="encodeImageFileAsURL();" accept="image/x-png,image/jpg,image/jpeg"  /><hr>
+	<div class="container">
+		<div class="row">
+      		<div class="col-md-6 m-auto">
+        		<h1 class="text-center display-4 my-4">Lane Detection</h1>
+        			<h5 class="text-center display-10 my-10">Upload an image:</h5>
+        		<form action="/key_image_search" method="POST" id="myform" >
+        			 <div class="form-group">
+        			 
+				<input id="inputFileToLoad" type="file"  onchange="encodeImageFileAsURL();" accept="image/x-png,image/jpg,image/jpeg"  /><hr>
 				<div id="imgTest"></div>
 				<br><hr>
 				<input type="hidden" id="base64_value" name="data" height="100px" width="300px"/>
-			 	<input type="submit" value="Detect" class="btn_submit" />
+			 	<input type="submit" value="Detect" class="btn btn-primary btn-block" />
+        			</div> 
+			 	
 		</form>
+	
+
 	</div>
+</div>
+</div>
+	
+		
+		
 
 	<p>
-		<h2>Original Image</h2>
+		<div class="container">
+		<div class="row">
+      		<div class="col-md-6 m-auto">
+      			<h2>Original Image</h2>
 	</p>
 	<hr>
 		<div id="original_image">
-			<img src="data:image/png;base64,{{ org_pic }}" width="500px" height="700px" align="middle"/>
+
+			<img class="img-fluid img-thumbnail" src="data:image/png;base64,{{ org_pic }}" width="500px" height="700px" align="middle"/>
 		</div>
 	<br><hr>
 
 	<p>
+	</div>
+	<div class="col-md-6 m-auto">
 		<h2>Detected Image</h2>
 	</p>
 	<hr>
 		<div id="next">
-			<img src="data:image/png;base64,{{ pred}}"  alt = "new pic" />
+			<img class="img-fluid img-thumbnail"src="data:image/png;base64,{{ pred}}"  width="500px" height="700px"  alt = "new pic" />
 
 		</div>
-	<br><h
+	<br><hr>
+      		</div>
+      	</div>
+      </div>
+		
 </body>
