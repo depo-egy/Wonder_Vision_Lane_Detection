@@ -4,7 +4,7 @@ This repository is dedicated for showing the work of the "Lane Detection" subgro
 # Project overview
 As the name suggests, this project focusses on <b>identification of lanes of the road</b> which we achieved through this project using various approaches and frameworks including but not limited <b>OpenCV, PyTorch etc</b>.
 
-### Following are the appraoches we followed 
+# Approaches followed 
 
 1. Reading Images
 2. Color Filtering in HLS
@@ -15,7 +15,7 @@ As the name suggests, this project focusses on <b>identification of lanes of the
 7. Overlay detected lane
 8. Applying to Video
 
-#Outcome of the project
+# Outcome of the project
 
 ![2019-08-20 16_41_50-Slack _ Mohammad Diab, Shudipto Trafder, shivu, Astha Adhikari, Droid, Oudarjya ](https://user-images.githubusercontent.com/50787118/63344940-3cc76f00-c36f-11e9-8858-1f0c54604efc.png)
 
@@ -29,9 +29,9 @@ Following are the Slack handles of the members
 |--- | ---| --- |
 |Astha Adhikari|@Astha Adhikari|https://github.com/adhikariastha5
 |Oudarjya Sen Sarma|@Oudarjya Sen Sarma|https://github.com/oudarjya718
+|Mohammad Diab|@Mohammad Diab|https://github.com/depo-egy
 |Shiva Shankar|@shivu|https://github.com/shiv-u
 |Vigneshwari Ramakrishnan|@Vigneshwari|https://github.com/drvigneshwari
-|Mohammad Diab|@Mohammad Diab|
 
 
 ## This Google document is the for meetups follow up:
@@ -39,3 +39,5 @@ https://docs.google.com/document/d/1fGN4T_ZJNQP5KHoIm5kUwVwMsGtgJyX9qYuI5ZCVQWc/
 
 
 ### Here's the Workflow of our project!!!
+
+![2019-08-20 18_11_02-Slack _ Mohammad Diab, Shudipto Trafder, shivu, Astha Adhikari, Droid, Oudarjya ](https://user-images.githubusercontent.com/50787118/63347962-ea3d8100-c375-11e9-8d88-84e50266dad7.png)
