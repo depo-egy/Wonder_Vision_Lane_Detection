@@ -2,7 +2,7 @@
 This repository is dedicated for showing the work of the "Lane Detection" subgroup within #sg_wonder_vision channel on Slack Work-space for Private and Secure AI challenge from Udacity.
 
 # Project overview
-As the name suggests, this project focusses on <b>identification of lanes of the road</b> which we achieved through this project using various approaches and frameworks including but not limited to <b>OpenCV, PyTorch etc</b>.
+As the name suggests, this project focusses on <b>identification of lanes of the road</b> which we achieved through this project using various approaches and frameworks including but not limited to <b>OpenCV, PyTorch etc</b>. This model is to be used in drones , self driving cars, surveillance systems , so its is primarily related to 'Safety'.
 
 # Approaches followed 
 
