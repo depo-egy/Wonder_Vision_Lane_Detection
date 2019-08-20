@@ -40,4 +40,4 @@ https://docs.google.com/document/d/1fGN4T_ZJNQP5KHoIm5kUwVwMsGtgJyX9qYuI5ZCVQWc/
 
 ### Here's the Workflow of our project!!!
 
-![2019-08-20 18_11_02-Slack _ Mohammad Diab, Shudipto Trafder, shivu, Astha Adhikari, Droid, Oudarjya ](https://user-images.githubusercontent.com/50787118/63347962-ea3d8100-c375-11e9-8d88-84e50266dad7.png)
+![BlockDiagramLast](https://user-images.githubusercontent.com/19780364/63348471-0858b080-c379-11e9-844e-f9b14b3b852c.png))
