@@ -1,6 +1,10 @@
 # Wonder_Vision_Lane_Detection
 This repository is dedicated for showing the work of the "Lane Detection" subgroup within #sg_wonder_vision channel on Slack Work-space for Private and Secure AI challenge from Udacity.
 
+Update: This project won the in the project showcase challenge as one of the top 10 projects out of hundreds of projects
+        you can find the badges of the contributers here:
+        https://github.com/depo-egy/Wonder_Vision_Lane_Detection/tree/master/Badges
+        
 # Project overview
 As the name suggests, this project focusses on <b>identification of lanes of the road</b> which we achieved through this project using various approaches and frameworks including but not limited to <b>OpenCV, PyTorch etc</b>. This model is to be used in drones , self driving cars, surveillance systems , so its is primarily related to 'Safety'.
 
